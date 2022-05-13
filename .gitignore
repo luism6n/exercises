@@ -1,3 +1,6 @@
 **/settings.json
 **/venv
 **/*.out
+
+# Valgrind
+**/*.dSYM

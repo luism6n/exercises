@@ -41,12 +41,14 @@ def cases(input_file):
 
 for inp, expected_out in cases(input_file):
     actual_out = subprocess.check_output(
-        # ["valgrind", "./" + executable], text=True, input=inp
-        ["./" + executable],
+        ["valgrind", "-q", "./" + executable],
+        # ["./" + executable],
         text=True,
         input=inp,
     )
     try:
+        print("success")
         assert actual_out == expected_out, (inp, actual_out, expected_out)
     except AssertionError as e:
+        print("failure")
         print(e)
