@@ -1,0 +1,11 @@
+>>
+Mr John Smith    
+13
+<<
+Mr%20John%20Smith
+
+>>
+a a  
+3
+<<
+a%20a

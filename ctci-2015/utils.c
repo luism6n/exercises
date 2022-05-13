@@ -1,5 +1,16 @@
 #include <stdlib.h>
 
+int read_int(int *dest)
+{
+    int num_items_read = scanf("%d", dest);
+    if (num_items_read != 1)
+    {
+        return 1;
+    }
+
+    return 0;
+}
+
 int read_string(char **dest, int *len)
 {
     char *str;
