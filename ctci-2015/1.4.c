@@ -42,5 +42,6 @@ int main()
         printf("true\n");
     }
 
+    free(string);
     return 0;
 }
