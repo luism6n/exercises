@@ -21,3 +21,15 @@ pale
 bae
 <<
 false
+
+>>
+abcd
+abd
+<<
+true
+
+>>
+abcde
+abd
+<<
+false
