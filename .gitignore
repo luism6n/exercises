@@ -1,5 +1,9 @@
 **/settings.json
+**/tasks.json
+**/launch.json
+
 **/venv
+
 **/*.out
 
 # Valgrind
