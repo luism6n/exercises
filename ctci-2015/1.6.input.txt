@@ -1,0 +1,14 @@
+>>
+aabbccc
+<<
+a2b2c3
+
+>>
+abc
+<<
+abc
+
+>>
+aaaaabc
+<<
+a5b1c1

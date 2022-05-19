@@ -1,5 +1,16 @@
 #include <stdlib.h>
 
+int alloc_string(char **dest, int len)
+{
+    *dest = (char *)calloc(len + 1, 1);
+    if (*dest == NULL)
+    {
+        return 1;
+    }
+
+    return 0;
+}
+
 int read_int(int *dest)
 {
     int num_items_read = scanf("%d", dest);
